@@ -1,5 +1,5 @@
 # useCounter Hook
-
+its usefull to increment, decrement, or reset a counter
 example:
 
 ...
