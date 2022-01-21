@@ -3,7 +3,8 @@ Makes with fetch depending on the url sent a request to an api
 
 Example:
 ... 
-    const {loading,data}=useFetch(`https://www.breakingbadapi.com/api/quotes/${counter}`);
+    const url = "www.api.com";
+    const { loading:true, data:true, error:null } = useFetch(url);
 ...
 
 ii returns three parameters loading, the data, and the error if something ocurrs
